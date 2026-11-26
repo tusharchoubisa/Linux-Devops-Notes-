@@ -1,0 +1,51 @@
+# **Module 1 : Introduction to Linix**
+
+- Cloud Computing :
+
+Cloud Computing is the delivery of computing services such as servers, storage, databases, networking, and software over the internet.
+
+- Operating System :
+
+An operating system acts as a bridge over applicatikn and computer hardware.
+
+- Linux :
+
+Linux is OS uesd to run computer server , Cloud Infrasctructure , Supercomputer.
+
+- Features of Linux :
+1. Open  Source Operating System 
+2. Security (never hacked 95% chance to not to be hacked)
+3. Multi User 
+4. Multitasking 
+5. Stability 
+6. Customiseable 
+
+- Whu we Use Linux :
+1. Server - Focued - Distribution 
+2. Powerful - Command - Line - administration 
+3. Automation Capability 
+4. Customisable Accourding to bussines Requirements
+
+                    User
+
+                    | user interface
+
+    Standred  unility program  shell, compiler 
+
+                    |Library interface 
+
+   Standard librabry (  read,write,close, Open)
+
+                   |
+
+   Linus Operating System 
+
+                  |
+
+        Hardware(CPU,Memory etc. ) 
+
+- Open CLoud Shell 🙂
+1. Lauch Cloud shell
+2. shell
+3. Activate 
+4. Aithorise
