@@ -1,0 +1,133 @@
+- Basic Command 🙂
+
+1. whoami ( check whos account is )
+2. uname -a (details)
+3. date(check date and time )
+    1. uname ( to check Os)
+4. pwd[print working directory] ( current directory check)
+5. uname -s ( show enviroment on which shell)
+6. uname -m (show machine architecture)
+7. cat /etc/os-release | grep PRETTY_NAME
+8. uname -r ( show version ) 
+9. echo $SHELL (n on which shell we are working ) 
+10. ps -p $$ -o comm= ( current working shell)
+11. bash --version(bash information)
+12. cd (enter and exit into directory)
+13. mkdir ( to create directory)
+14. mkdir myfolder( check current directory) 
+15. echo "$HOME” (check Current shell)
+16. $ echo "hello"
+hello (Cmmmenting)
+17.  echo "$SHELL” ( To check current Shell)
+18. 
+- `mkdir` creates a new folder.
+- `rmdir` removes an **empty** folder.
+- `cat` shows the contents of a file.
+- `cd` moves you into a different folder.
+
+- Linux Distribution Syatem (Distrow)
+
+:
+
+1. Ubantu (for begginer  cat /etc/os-release)
+2. Fedora 
+3. Rehhet ( for cyber security)
+4. Amazon linux 
+
+- CLI- Command Line Interface :
+
+It allowes user intrarect with computer by typing command . 
+
+GUI - Grafical User Interface:
+
+Mouse , Keybord,button 
+
+ Bash : 
+
+→ Bourne again Shell. It is command line interpeter and scripting Languages and Uni Like enviroment.
+
+→ We Use to exceute Linux Command 
+
+→ shell Scripting 
+
+→ To Automate 
+
+→ Files and directries ( manages)
+
+→ System Adminstration Task 
+
+Terminal : Where we Write our command .
+
+- Commenting :  -
+
+$ echo "hello"
+hello
+
+- Bashscript:   It is a file that can read multiple shell command .
+
+$touch tush.sh
+~$ cat > tush.sh << 'EOF'
+
+> echo"hello"
+date
+whoami
+cal
+pwd
+EOF
+~ $ bash tush.sh
+> 
+- AWS Cloud Shell : It is a browser based pre-authentication command line enviorment , that allowes to exceute commands and AWS resources directly from AWS management cloudshell.
+- → why do we need AWS cloud shell  :-
+
+→ No Sepereate Linux Installation. 
+
+→ Browser bases Access.  
+
+→  AWS CLI pre Installation.       
+
+→  Pre-athenticated Enviromen         
+
+→ Cloud shell uses AWS idetity Consoled SIgn sesson.    → Command development tool.                                           → Multiple Shell ( Bash,ZSh,Power shell) .                             → AWS Resources Management.  
+
+- Amazon EC2 :  Provie Services and perform server administyration permission. EC2 linix instance is best for web server
+
+ /etc → Directory 
+
+/os-realease → which OS is /working . 
+
+- Hostname → To know the name of hostname.
+
+   ⇒ command :- 
+
+1. hostname → to display hostname 
+2. hostnamectl → display or manage host name 
+    1. sudo hostnamectl set-hostname my-server → to create new Hostname 
+3. cat /etc/hostname → Read the host name from the file 
+
+Difference between Hostname and Ipaddress:
+
+- [Interview asked question]
+
+Hostname → It is human Readable name to identify a machine network. 
+
+IPaddress → It is Numeric machine network address  will not readable by human.  
+
+ .text → Text File 
+
+.sh → Shellscript
+
+.html → html file  
+
+.py → Python file 
+
+.js → javascript
+
+.csp → csv file 
+
+user dell → delete user 
+
+sudo useradd tushar → To add user
+
+sudo groupadd list → To add group 
+
+cat /etc/group →  Check group
